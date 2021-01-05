@@ -1,0 +1,49 @@
+.button1 {
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.button1 {
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: #5458A4; /* Green */
+  color: white;
+}
+
+.confirmation{
+	text-align: center;
+	color: #008CBA;
+}
+
+.button2 {
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.button2 {
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: #5458A4; /* Green */
+  color: white;
+}
+

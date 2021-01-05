@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='css/register.css')}}" type="text/css">
+</head>
+<body>
+
+	<h1>Welcome Registration Page</h1>
+	<form action="#" method="POST" class="Submission-Form">
+	
+		<label>First Name</label>
+		<input type="text" name="FName" maxlength="35" placeholder="First Name" required>
+
+		<label>Last Name</label>
+		<input type="text" name="LName" maxlength="35" placeholder="Last Name" required>
+
+
+		<label>Address</label>
+		<textarea placeholder="Full Address" name="Address" rows="10" cols="115"  required></textarea>
+
+		
+		<label>Phone</label>
+		<input type="text" name="phone" placeholder="Phone number" title="Error Message" pattern="[789][0-9]{9}" maxlength="10" required>
+
+
+		<input type="submit" value="submit" class="sbt_btn">
+
+	</form>
+	
+</body>
+</html>
